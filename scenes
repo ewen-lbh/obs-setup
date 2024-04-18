@@ -1,0 +1,1424 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 503382018,
+        "name": "Desktop Audio",
+        "uuid": "81015bac-8d6a-42ef-980a-c766b45bdc21",
+        "id": "pulse_output_capture",
+        "versioned_id": "pulse_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 0.0034570305142551661,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "AuxAudioDevice1": {
+        "prev_ver": 503382018,
+        "name": "Mic/Aux",
+        "uuid": "2e0a7c1b-12da-4bc0-9b93-a508c5acb97e",
+        "id": "pulse_input_capture",
+        "versioned_id": "pulse_input_capture",
+        "settings": {
+            "device_id": "alsa_input.usb-Focusrite_Scarlett_2i2_USB-00.HiFi__scarlett2i_mono_in_USB_0_0__source"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "current_scene": "Stream",
+    "current_program_scene": "Cam",
+    "scene_order": [
+        {
+            "name": "Cam"
+        },
+        {
+            "name": "Stream"
+        }
+    ],
+    "name": "Stream",
+    "groups": [],
+    "quick_transitions": [
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 3,
+            "fade_to_black": true
+        }
+    ],
+    "transitions": [],
+    "saved_projectors": [],
+    "current_transition": "Cut",
+    "transition_duration": 200,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "Stream",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "advanced-scene-switcher": {
+            "sceneGroups": [],
+            "macros": [
+                {
+                    "name": "Switch to left screen",
+                    "pause": true,
+                    "parallel": false,
+                    "onChange": false,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 179
+                        },
+                        {
+                            "pos": 204
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 166
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "collapsed": true,
+                            "id": "cursor",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.5,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "condition": 0,
+                            "button": 0,
+                            "minX": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "minY": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "maxX": {
+                                "value": 1830,
+                                "type": 0
+                            },
+                            "maxY": {
+                                "value": 970,
+                                "type": 0
+                            },
+                            "version": 1
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "collapsed": false,
+                            "id": "scene_switch",
+                            "enabled": true,
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": "Stream"
+                            },
+                            "transitionType": 0,
+                            "transition": "Cut",
+                            "duration": {
+                                "value": {
+                                    "value": 0.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "blockUntilTransitionDone": true,
+                            "sceneType": 0
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "Switch to right screen",
+                    "pause": true,
+                    "parallel": false,
+                    "onChange": false,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 179
+                        },
+                        {
+                            "pos": 204
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 166
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "collapsed": true,
+                            "id": "cursor",
+                            "logic": 1,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.5,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "condition": 0,
+                            "button": 0,
+                            "minX": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "minY": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "maxX": {
+                                "value": 1830,
+                                "type": 0
+                            },
+                            "maxY": {
+                                "value": 970,
+                                "type": 0
+                            },
+                            "version": 1
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "collapsed": false,
+                            "id": "scene_switch",
+                            "enabled": true,
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": ""
+                            },
+                            "transitionType": 0,
+                            "transition": "Cut",
+                            "duration": {
+                                "value": {
+                                    "value": 0.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "blockUntilTransitionDone": true,
+                            "sceneType": 0
+                        }
+                    ],
+                    "elseActions": []
+                }
+            ],
+            "macroProperties": {
+                "highlightExecuted": false,
+                "highlightConditions": false,
+                "highlightActions": false,
+                "newMacroRegisterHotkey": false
+            },
+            "variables": [],
+            "switches": [],
+            "ignoreWindows": [],
+            "screenRegion": [],
+            "pauseEntries": [],
+            "sceneRoundTrip": [],
+            "sceneTransitions": [],
+            "defaultTransitions": [],
+            "defTransitionDelay": 0,
+            "ignoreIdleWindows": [],
+            "idleTargetType": 0,
+            "idleSceneName": "",
+            "idleTransitionName": "",
+            "idleEnable": false,
+            "idleTime": 60,
+            "executableSwitches": [],
+            "randomSwitches": [],
+            "fileSwitches": [],
+            "readEnabled": false,
+            "readPath": "",
+            "writeEnabled": false,
+            "writePath": "",
+            "mediaSwitches": [],
+            "timeSwitches": [],
+            "audioSwitches": [],
+            "audioFallbackTargetType": 0,
+            "audioFallbackScene": "",
+            "audioFallbackTransition": "",
+            "audioFallbackEnable": false,
+            "audioFallbackDuration": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "videoSwitches": [],
+            "ServerEnabled": false,
+            "ServerPort": 55555,
+            "LockToIPv4": false,
+            "ClientEnabled": false,
+            "Address": "",
+            "ClientPort": 55555,
+            "SendSceneChange": true,
+            "SendSceneChangeAll": true,
+            "SendPreview": true,
+            "triggers": [],
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": 0,
+            "noMatchDelay": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "cooldown": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "active": true,
+            "startup_behavior": 0,
+            "autoStartEvent": 3,
+            "logLevel": 0,
+            "showSystemTrayNotifications": false,
+            "disableHints": false,
+            "disableFilterComboboxFilter": false,
+            "warnPluginLoadFailure": true,
+            "hideLegacyTabs": true,
+            "priority0": 10,
+            "priority1": 0,
+            "priority2": 2,
+            "priority3": 8,
+            "priority4": 6,
+            "priority5": 9,
+            "priority6": 7,
+            "priority7": 4,
+            "priority8": 1,
+            "priority9": 5,
+            "priority10": 3,
+            "threadPriority": 3,
+            "transitionOverrideOverride": false,
+            "adjustActiveTransitionType": true,
+            "lastImportPath": "",
+            "startHotkey": [],
+            "stopHotkey": [],
+            "toggleHotkey": [],
+            "upMacroSegmentHotkey": [],
+            "downMacroSegmentHotkey": [],
+            "removeMacroSegmentHotkey": [],
+            "tabWidgetOrder": [
+                {
+                    "generalTab": 0
+                },
+                {
+                    "macroTab": 1
+                },
+                {
+                    "variableTab": 2
+                },
+                {
+                    "windowTitleTab": 3
+                },
+                {
+                    "executableTab": 4
+                },
+                {
+                    "screenRegionTab": 5
+                },
+                {
+                    "mediaTab": 6
+                },
+                {
+                    "fileTab": 7
+                },
+                {
+                    "randomTab": 8
+                },
+                {
+                    "timeTab": 9
+                },
+                {
+                    "idleTab": 10
+                },
+                {
+                    "sceneSequenceTab": 11
+                },
+                {
+                    "audioTab": 12
+                },
+                {
+                    "videoTab": 13
+                },
+                {
+                    "networkTab": 14
+                },
+                {
+                    "sceneGroupTab": 15
+                },
+                {
+                    "transitionsTab": 16
+                },
+                {
+                    "pauseTab": 17
+                },
+                {
+                    "sceneTriggerTab": 18
+                }
+            ],
+            "saveWindowGeo": false,
+            "windowPosX": 1920,
+            "windowPosY": 0,
+            "windowWidth": 1000,
+            "windowHeight": 600,
+            "macroListMacroEditSplitterPosition": [
+                {
+                    "pos": 143
+                },
+                {
+                    "pos": 831
+                }
+            ],
+            "version": "01437183ac28f28cedcd9cb76573b6683105fcf8",
+            "twitchConnections": [],
+            "websocketConnections": [],
+            "actionQueues": []
+        }
+    },
+    "sources": [
+        {
+            "prev_ver": 503382018,
+            "name": "Ad",
+            "uuid": "02d5417c-90d1-4703-bd1d-64c86629e4dc",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
+            "settings": {
+                "from_file": false,
+                "text_file": "/home/uwun/.local/share/spotify-status.txt",
+                "text": "https://ewen.works",
+                "font": {
+                    "face": "Victor Mono SemiBold",
+                    "style": "Regular",
+                    "size": 256,
+                    "flags": 1
+                },
+                "log_lines": 1
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Bottom bar background",
+            "uuid": "e0046cfe-2cb7-42d0-a214-c777530acc11",
+            "id": "color_source",
+            "versioned_id": "color_source_v3",
+            "settings": {
+                "color": 4278190080,
+                "height": 50
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Round corners",
+                    "uuid": "754b14db-4b38-424d-b519-8a27612c168a",
+                    "id": "shader_filter",
+                    "versioned_id": "shader_filter",
+                    "settings": {
+                        "corner_radius": 36,
+                        "corner_radius_tl": 30,
+                        "corner_radius_tr": 30,
+                        "shader_text": "//Converted to OpenGL by Q-mii & Exeldro February 18, 2022\nuniform int corner_radius_tl<\n    string label = \"Corner radius top left\";\n    string widget_type = \"slider\";\n    int minimum = 0;\n    int maximum = 200;\n    int step = 1;\n>;\nuniform int corner_radius_tr<\n    string label = \"Corner radius top right\";\n    string widget_type = \"slider\";\n    int minimum = 0;\n    int maximum = 200;\n    int step = 1;\n>;\nuniform int corner_radius_br<\n    string label = \"Corner radius bottom right\";\n    string widget_type = \"slider\";\n    int minimum = 0;\n    int maximum = 200;\n    int step = 1;\n>;\nuniform int corner_radius_bl<\n    string label = \"Corner radius bottom left\";\n    string widget_type = \"slider\";\n    int minimum = 0;\n    int maximum = 200;\n    int step = 1;\n>;\nuniform int border_thickness<\n    string label = \"Border thickness\";\n    string widget_type = \"slider\";\n    int minimum = 0;\n    int maximum = 100;\n    int step = 1;\n>;\nuniform float4 border_color;\nuniform float border_alpha_start<\n    string label = \"border alpha start\";\n    string widget_type = \"slider\";\n    float minimum = 0.0;\n    float maximum = 1.0;\n    float step = 0.001;\n> = 1.0;\nuniform float border_alpha_end<\n    string label = \"border alpha end\";\n    string widget_type = \"slider\";\n    float minimum = 0.0;\n    float maximum = 1.0;\n    float step = 0.001;\n> = 0.0;\nuniform float alpha_cut_off<\n    string label = \"alpha cut off\";\n    string widget_type = \"slider\";\n    float minimum = 0.0;\n    float maximum = 1.0;\n    float step = 0.001;\n> = 0.5;\n\nfloat4 mainImage(VertData v_in) : TARGET\n{\n    float4 pixel = image.Sample(textureSampler, v_in.uv);\n    int closedEdgeX = 0;\n    int closedEdgeY = 0;\n    if(pixel.a < alpha_cut_off){\n        return float4(1.0,0.0,0.0,0.0);\n    }\n    int corner_radius_top = corner_radius_tl>corner_radius_tr?corner_radius_tl:corner_radius_tr;\n    int corner_radius_right = corner_radius_tr>corner_radius_br?corner_radius_tr:corner_radius_br;\n    int corner_radius_bottom = corner_radius_bl>corner_radius_br?corner_radius_bl:corner_radius_br;\n    int corner_radius_left = corner_radius_tl>corner_radius_bl?corner_radius_tl:corner_radius_bl;\n    \n    if(image.Sample(textureSampler, v_in.uv + float2(corner_radius_right*uv_pixel_interval.x,0)).a < alpha_cut_off){\n        closedEdgeX = corner_radius_right;\n    }else if(image.Sample(textureSampler, v_in.uv + float2(-corner_radius_left*uv_pixel_interval.x,0)).a < alpha_cut_off){\n        closedEdgeX = -corner_radius_left;\n    }\n    if(image.Sample(textureSampler, v_in.uv + float2(0,corner_radius_bottom*uv_pixel_interval.y)).a < alpha_cut_off){\n        closedEdgeY = corner_radius_bottom;\n    }else if(image.Sample(textureSampler, v_in.uv + float2(0,-corner_radius_top*uv_pixel_interval.y)).a < alpha_cut_off){\n        closedEdgeY = -corner_radius_top;\n    }\n    if(closedEdgeX == 0 && closedEdgeY == 0){\n        return pixel;\n    }\n    if(closedEdgeX != 0){\n        [loop] for(int x = 1;x<corner_radius_right;x++){\n            if(image.Sample(textureSampler, v_in.uv + float2(x*uv_pixel_interval.x, 0)).a < alpha_cut_off){\n                closedEdgeX = x;\n                break;\n            }\n        }\n        [loop] for(int x = 1;x<corner_radius_left;x++){\n            if(image.Sample(textureSampler, v_in.uv + float2(-x*uv_pixel_interval.x, 0)).a < alpha_cut_off){\n                closedEdgeX = -x;\n                break;\n            }\n        }\n    }\n    if(closedEdgeY != 0){\n        [loop] for(int y = 1;y<corner_radius_bottom;y++){\n            if(image.Sample(textureSampler, v_in.uv + float2(0, y*uv_pixel_interval.y)).a < alpha_cut_off){\n                closedEdgeY = y;\n                break;\n            }\n        }\n        [loop] for(int y = 1;y<corner_radius_top;y++){\n            if(image.Sample(textureSampler, v_in.uv + float2(0, -y*uv_pixel_interval.y)).a < alpha_cut_off){\n                closedEdgeY = -y;\n                break;\n            }\n        }\n    }\n    int closedEdgeXabs = closedEdgeX < 0 ? -closedEdgeX : closedEdgeX;\n    int closedEdgeYabs = closedEdgeY < 0 ? -closedEdgeY : closedEdgeY;\n    int corner_radius = 0;\n    if(closedEdgeX < 0 && closedEdgeY < 0){\n        corner_radius = corner_radius_tl;\n    }else if(closedEdgeX > 0 && closedEdgeY < 0){\n        corner_radius = corner_radius_tr;\n    }else if(closedEdgeX > 0 && closedEdgeY > 0){\n        corner_radius = corner_radius_br;\n    }else if(closedEdgeX < 0 && closedEdgeY > 0){\n        corner_radius = corner_radius_bl;\n    }\n    if(closedEdgeXabs > corner_radius && closedEdgeYabs > corner_radius){\n        return pixel;\n    }\n    if(closedEdgeXabs == 0){\n        if(closedEdgeYabs <= border_thickness){\n            float4 fade_color = border_color;\n            fade_color.a = border_alpha_end + (closedEdgeYabs / border_thickness)*(border_alpha_start-border_alpha_end);\n            return fade_color;\n        }else{\n            return pixel;\n        }\n    }\n    if(closedEdgeYabs == 0){\n        if(closedEdgeXabs <= border_thickness){\n            float4 fade_color = border_color;\n            fade_color.a = border_alpha_end + (closedEdgeXabs / border_thickness)*(border_alpha_start-border_alpha_end);\n            return fade_color;\n        }else{\n            return pixel;\n        }\n    }\n    if(closedEdgeXabs > corner_radius){\n        if(closedEdgeYabs <= border_thickness){\n            float4 fade_color = border_color;\n            fade_color.a = border_alpha_end + (closedEdgeYabs / border_thickness)*(border_alpha_start-border_alpha_end);\n            return fade_color;\n        }else{\n            return pixel;\n        }\n    }\n    if(closedEdgeYabs > corner_radius){\n        if(closedEdgeXabs <= border_thickness){\n            float4 fade_color = border_color;\n            fade_color.a = border_alpha_end + (closedEdgeXabs / border_thickness)*(border_alpha_start-border_alpha_end);\n            return fade_color;\n        }else{\n            return pixel;\n        }\n    }\n    float d = distance(float2(closedEdgeXabs, closedEdgeYabs), float2(corner_radius,corner_radius));\n    if(d<corner_radius){\n        if(corner_radius-d <= border_thickness){\n            float4 fade_color = border_color;\n            fade_color.a = border_alpha_end + ((corner_radius-d)/ border_thickness)*(border_alpha_start-border_alpha_end);\n            return fade_color;\n        }else{\n            return pixel;\n        }\n    }\n    return float4(0.0,0.0,0.0,0.0);\n}"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Cam",
+            "uuid": "0a5154a9-188a-464b-8fce-b2d062baade5",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 7,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Left monitor",
+                        "source_uuid": "6542609c-e982-4480-b7fe-bd3edaaeb7ff",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Right monitor",
+                        "source_uuid": "9b6922f3-c14f-4413-8703-e41db4533e26",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Bottom bar background",
+                        "source_uuid": "e0046cfe-2cb7-42d0-a214-c777530acc11",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1030.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Spotify music",
+                        "source_uuid": "13cc829b-f1dc-4e95-9bc4-fb73ffaf8fad",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 20.0,
+                            "y": 1036.638671875
+                        },
+                        "scale": {
+                            "x": 0.12380952388048172,
+                            "y": 0.12258064746856689
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Spotiufy music lmao",
+                        "source_uuid": "c55a548e-68bd-4e05-b536-c5ad7e4e12b3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 36.0,
+                            "y": 1034.5
+                        },
+                        "scale": {
+                            "x": 0.85000002384185791,
+                            "y": 0.85000002384185791
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Ad",
+                        "source_uuid": "02d5417c-90d1-4703-bd1d-64c86629e4dc",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1620.0,
+                            "y": 1037.0
+                        },
+                        "scale": {
+                            "x": 0.10992063581943512,
+                            "y": 0.11074918508529663
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "droidcaml",
+                        "source_uuid": "b50e5fb1-96f1-4ede-8fff-0e983bb0823d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 442.0,
+                            "y": 125.0
+                        },
+                        "scale": {
+                            "x": 1.6234375238418579,
+                            "y": 1.6229166984558105
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "droidcaml",
+            "uuid": "b50e5fb1-96f1-4ede-8fff-0e983bb0823d",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
+            "settings": {
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 842093913,
+                "timeout_frames": 5
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Video Delay (Async)",
+                    "uuid": "b193fbbf-47d2-49ee-9bc5-78262529039c",
+                    "id": "async_delay_filter",
+                    "versioned_id": "async_delay_filter",
+                    "settings": {},
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Left monitor",
+            "uuid": "6542609c-e982-4480-b7fe-bd3edaaeb7ff",
+            "id": "wlrobs-dmabuf",
+            "versioned_id": "wlrobs-dmabuf",
+            "settings": {
+                "output": "DVI-D-1",
+                "show_cursor": true
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Right monitor",
+            "uuid": "9b6922f3-c14f-4413-8703-e41db4533e26",
+            "id": "wlrobs-dmabuf",
+            "versioned_id": "wlrobs-dmabuf",
+            "settings": {
+                "output": "HDMI-A-1",
+                "show_cursor": true
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Spotify music",
+            "uuid": "13cc829b-f1dc-4e95-9bc4-fb73ffaf8fad",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
+            "settings": {
+                "from_file": true,
+                "text_file": "/home/uwun/.local/share/spotify-status.txt",
+                "font": {
+                    "face": "Victor Mono SemiBold",
+                    "style": "Regular",
+                    "size": 256,
+                    "flags": 1
+                },
+                "log_lines": 1
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Spotiufy music lmao",
+            "uuid": "c55a548e-68bd-4e05-b536-c5ad7e4e12b3",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "is_local_file": false,
+                "local_file": "/home/uwun/projects/obs-setup/spotify.html",
+                "url": "http://localhost:8000/spotify.html",
+                "width": 1200,
+                "height": 50,
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; color: white; font-size: 1.7rem; font-family: 'Victor Mono', sans-serif; display: flex; align-items: center; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Stream",
+            "uuid": "66ab2b59-52e0-4838-b15f-ab2a0ab365a0",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 14,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Left monitor",
+                        "source_uuid": "6542609c-e982-4480-b7fe-bd3edaaeb7ff",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Right monitor",
+                        "source_uuid": "9b6922f3-c14f-4413-8703-e41db4533e26",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Bottom bar background",
+                        "source_uuid": "e0046cfe-2cb7-42d0-a214-c777530acc11",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1030.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 9,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Spotify music",
+                        "source_uuid": "13cc829b-f1dc-4e95-9bc4-fb73ffaf8fad",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 20.0,
+                            "y": 1036.638671875
+                        },
+                        "scale": {
+                            "x": 0.12380952388048172,
+                            "y": 0.12258064746856689
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Spotiufy music lmao",
+                        "source_uuid": "c55a548e-68bd-4e05-b536-c5ad7e4e12b3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 36.0,
+                            "y": 1034.5
+                        },
+                        "scale": {
+                            "x": 0.85000002384185791,
+                            "y": 0.85000002384185791
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 13,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Ad",
+                        "source_uuid": "02d5417c-90d1-4703-bd1d-64c86629e4dc",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1298.0,
+                            "y": 1037.0
+                        },
+                        "scale": {
+                            "x": 0.10992063581943512,
+                            "y": 0.11074918508529663
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "droidcaml",
+                        "source_uuid": "b50e5fb1-96f1-4ede-8fff-0e983bb0823d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1600.0,
+                            "y": 858.0
+                        },
+                        "scale": {
+                            "x": 0.53750002384185791,
+                            "y": 0.53750002384185791
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 45,
+                        "crop_top": 67,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}

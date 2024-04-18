@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "obs-setup"
+version = "0.1.0"
+description = ""
+authors = ["Ewen Le Bihan <hey@ewen.works>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7,<3.10"
+obs-monitor-switcher = {git = "https://github.com/ewen-lbh/obs-monitor-switcher"}
+websocket-client = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

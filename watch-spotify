@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+SOURCE=$HOME/.local/share/spotify-status.txt
+previous_text=$(cat $SOURCE)
+
+inotifywait -qme close_write $SOURCE | while read -r filename event; do
+	if [[ "$(cat $SOURCE)" == "$previous_text" ]]; then
+		continue
+	fi
+	echo 'Re-generating spotify.html...'
+	sleep 1
+	cat $SOURCE | head -1 | cat ./spotify-template.html - > spotify.html
+	previous_text="$(cat $SOURCE)"
+done
